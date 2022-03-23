@@ -1,0 +1,339 @@
+.navbar {
+  max-width: auto;
+  background-color: #2e92f0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 15px;
+  list-style: none;
+}
+
+.navbar ul li:last-child {
+  float: right;
+}
+
+.navbar ul li:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #2e92f0;
+  background-color: whitesmoke;
+}
+
+.navbar ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #2e92f0;
+  background-color: whitesmoke;
+}
+
+.footer {
+  background-color: #2e92f0;
+}
+
+.footer p {
+  color: whitesmoke;
+  text-align: center;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: #2e92f0;
+}
+
+body .container {
+  max-width: 1100px;
+  background-color: whitesmoke;
+  margin: auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+body .container .homepage p {
+  text-align: center;
+  color: #2e92f0;
+}
+
+body .container .homepage h3 {
+  text-align: center;
+  color: #2e92f0;
+}
+
+body .container .homepage img {
+  width: 100%;
+}
+
+body .container .login_form {
+  min-height: 100vh;
+}
+
+body .container .admin_screen h1 {
+  text-align: center;
+  color: #2e92f0;
+}
+
+body .container .admin_screen .admin_nav {
+  max-width: auto;
+  background-color: #2e92f0;
+}
+
+body .container .admin_screen .admin_nav li {
+  margin-right: 15px;
+  display: inline-block;
+  list-style: none;
+}
+
+body .container .admin_screen .admin_nav li:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #2e92f0;
+  background-color: whitesmoke;
+}
+
+body .container .admin_screen .admin_nav li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+body .container .admin_screen .admin_nav li a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #2e92f0;
+  background-color: whitesmoke;
+}
+
+body .container .admin_screen .dashboard {
+  margin-top: 30px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eeeeee;
+}
+
+body .container .admin_screen .dashboard .col {
+  overflow: scroll;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 2px solid whitesmoke;
+  -webkit-box-shadow: 0 0 5px black;
+          box-shadow: 0 0 5px black;
+}
+
+body .container .admin_screen .dashboard .col h1 {
+  text-align: center;
+  color: black;
+}
+
+body .container .admin_screen .dashboard .col .categories ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+body .container .admin_screen .dashboard .col .categories ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+body .container .admin_screen .dashboard .col .categories #cat-one {
+  overflow: scroll;
+  height: 300px;
+}
+
+body .container .admin_screen .dashboard .col .categories #cat-two {
+  overflow: scroll;
+  height: 300px;
+}
+
+body .container .admin_screen .dashboard .col .stats_block {
+  text-align: center;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  max-width: 100%;
+  border: solid 2px whitesmoke;
+  -webkit-box-shadow: 0 0 5px black;
+          box-shadow: 0 0 5px black;
+  margin-top: 15px;
+}
+
+body .container .admin_screen .dashboard .col .settings #top-hr {
+  margin-top: 15px;
+}
+
+body .container .admin_screen .dashboard .col .settings a {
+  margin-left: 10px;
+  text-decoration: none;
+  border: solid 1px black;
+  color: black;
+  padding: 2px;
+}
+
+body .container .admin_screen .dashboard .col .settings a:hover {
+  border: none;
+  -webkit-box-shadow: 0 0 5px black;
+          box-shadow: 0 0 5px black;
+}
+
+body .container .admin_screen .dashboard .col .list_all_users {
+  height: 400px;
+  overflow: scroll;
+}
+
+body .container .admin_screen .dashboard .col .list_all_users #users_row {
+  background-color: #b1b2b3;
+  padding: 2px;
+}
+
+body .container .admin_screen .dashboard .col:first-child {
+  margin-right: 20px;
+}
+
+body .container .add_user_form {
+  min-height: 100vh;
+}
+
+body .container .user_login_form {
+  min-height: 100vh;
+}
+
+body .container .categories_menu {
+  padding: 3px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+body .container .categories_menu ul {
+  float: right;
+}
+
+body .container .categories_menu ul #delete-btn a:hover {
+  background-color: red;
+  color: white;
+  border: solid 1px red;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .container .categories_menu ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+body .container .categories_menu ul li a {
+  border: solid 1px #2e92f0;
+  color: #2e92f0;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: right;
+}
+
+body .container .categories_menu ul li a:hover {
+  background-color: #2e92f0;
+  color: whitesmoke;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+form {
+  display: block;
+  margin-top: 15px;
+  height: 30px;
+  width: 300px;
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+#snd-pass-btn {
+  text-decoration: none;
+  color: #2e92f0;
+  border: solid 3px #2e92f0;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+#snd-pass-btn:hover {
+  background-color: #2e92f0;
+  color: whitesmoke;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.alert {
+  border: solid 3px red;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: red;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+  background-color: #eeeeee;
+  padding: 3px;
+}
+
+.green_alert {
+  border: solid 3px green;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: green;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+  background-color: #eeeeee;
+  padding: 3px;
+}
+
+.complaint_box {
+  font-size: 15px;
+  border: solid 3px whitesmoke;
+  background-color: #eeeeee;
+  margin-bottom: 15px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 5px black;
+          box-shadow: 0 0 5px black;
+}
+
+.complaint_box h1 i {
+  font-size: 15px;
+}
+
+.category_item {
+  font-size: 15px;
+  border: solid 3px whitesmoke;
+  background-color: #eeeeee;
+  margin-bottom: 15px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 5px black;
+          box-shadow: 0 0 5px black;
+}
+
+.category_item h1 i {
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */

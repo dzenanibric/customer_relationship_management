@@ -1,0 +1,19 @@
+{
+  "name": "dzenanibric.crm.app",
+  "version": "1.0.0",
+  "description": "Mini Customer Relationship Management Project, HTML, CSS (+ SASS), JavaScript, PHP, Database",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzenanibric/customer_relationship_management.git"
+  },
+  "author": "Dzenan Ibric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzenanibric/customer_relationship_management/issues"
+  },
+  "homepage": "https://github.com/dzenanibric/customer_relationship_management#readme"
+}

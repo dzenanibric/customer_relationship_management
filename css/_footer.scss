@@ -1,0 +1,9 @@
+@import "./variables";
+
+.footer{
+    background-color: $primary_color;
+    p{
+        color: $second_color;
+        text-align: center;
+    }
+}

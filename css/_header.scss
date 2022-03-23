@@ -1,0 +1,30 @@
+@import "./variables";
+
+@mixin liaHover{
+    &:hover{
+        transition: 0.5s;
+        color: $primary_color;
+        background-color: $second_color;
+    }
+}
+
+.navbar{
+    max-width: auto;
+    background-color: $primary_color;
+    ul{
+        li{
+            &:last-child{
+                float: right;
+            }
+            @include liaHover();
+            display: inline-block;
+            margin-right: 15px;
+            list-style: none;
+            a{
+                @include liaHover();
+                color: $second_color;
+                text-decoration: none;
+            }
+        }
+    }
+}
